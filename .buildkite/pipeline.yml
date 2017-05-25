@@ -1,4 +1,4 @@
 steps:
   - label: test
-    # command: "bundle install && bundle exec run --help"
-    command: "ruby test.rb"
+    command: "bundle install && bundle exec run --help"
+    # command: "ruby test.rb"

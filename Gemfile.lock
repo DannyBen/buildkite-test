@@ -1,11 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    colsole (0.4.2)
+    docopt (0.6.0)
+    runfile (0.9.1)
+      colsole (~> 0.4)
+      docopt (~> 0.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  runfile
 
 BUNDLED WITH
    1.14.6
