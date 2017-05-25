@@ -1,0 +1,3 @@
+steps:
+  - label: test
+    command: "bundle install && bundle exec run --help"
