@@ -7,3 +7,5 @@ puts "terminal?: #{terminal?}"
 puts "out_terminal?: #{out_terminal?}"
 puts "err_terminal?: #{err_terminal?}"
 puts "terminal size: #{detect_terminal_size}"
+puts "stty size: (below)"
+puts `stty size`
