@@ -1,4 +1,7 @@
 steps:
   - label: test
-    command: "bundle install --force && bundle exec run --help"
-    # command: "ruby test.rb"
+    command: |
+      whoami
+      pwd
+      exit 1
+      ls
