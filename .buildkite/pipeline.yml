@@ -4,4 +4,4 @@ steps:
       whoami
       pwd
       exit 1
-      ls
+      echo "should not be here"
