@@ -1,3 +1,3 @@
 action :test do
-  run! "exit 123"
+  puts "test ok"
 end

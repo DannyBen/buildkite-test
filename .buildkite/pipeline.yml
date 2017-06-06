@@ -1,7 +1,16 @@
+# steps:
+#   - label: test
+#     command: 
+#       - ansible-playbook build-env-rails 
+#       - budnle install
+#       - run db prepare
+#       - rake test
+#       - cucumber
+#       - ansible-playbook destroy-env-rails 
+
+
 steps:
-  - label: test
-    command:
-      - whoami
-      - pwd
-      - exit 1
-      - echo "should not be here"
+ - command: run test
+    plugins:
+      docker-compose#v1.3.2:
+        run: ruby
