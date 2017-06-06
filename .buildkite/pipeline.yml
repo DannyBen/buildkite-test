@@ -10,7 +10,7 @@
 
 
 steps:
- - command: run test
-    plugins:
-      docker-compose#v1.3.2:
-        run: ruby
+- command: run test
+  plugins:
+    docker-compose#v1.3.2:
+      run: ruby
